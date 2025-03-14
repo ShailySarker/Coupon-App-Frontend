@@ -1,15 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { RiCoupon5Line } from 'react-icons/ri';
+import { useNavigate } from 'react-router';
 
 const LandingPage = () => {
-    // const navigate = useNavigate();
+    const navigate = useNavigate();
 
-    // useEffect(() => {
-    //     const timer = setTimeout(() => {
-    //         navigate("/posts");
-    //     }, 3000);
-    //     return () => clearTimeout(timer);
-    // }, [navigate]);
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            navigate("/home");
+        }, 3000);
+        return () => clearTimeout(timer);
+    }, [navigate]);
 
     return (
         <div className='h-screen flex justify-center items-center'>
