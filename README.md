@@ -1,12 +1,57 @@
-# React + Vite
+# Project Name: Coupon App Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Website Link:
+https://coupon-app-frontend.vercel.app
 
-Currently, two official plugins are available:
+# Technologies:
+JavaScript, Tailwind CSS, ReactJS, React Router, React-Redux, Redux Toolkit, Node.js, Express.js, MongoDB, Mongoose.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Title: Round-Robin Coupon Distribution with Abuse Prevention 
 
-## Expanding the ESLint configuration
+# Objective: 
+Develop a live web application that distributes coupons to guest users in a 
+round-robin manner, incorporating mechanisms to prevent users from exploiting page refreshes to claim multiple coupons within a restricted time frame. 
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# Requirements: 
+1. Coupon Distribution: 
+
+○ Maintain a list of available coupons. 
+
+○ Assign coupons sequentially to users to ensure even distribution. 
+
+2. Guest Access: 
+
+○ Allow users to access the system without requiring login or account creation. 
+
+3. Abuse Prevention: 
+
+○ IP Tracking: Record each user's IP address upon claiming a coupon, restricting subsequent claims from the same IP within a specified time frame (e.g., one 
+hour). 
+
+○ Cookie Tracking: Use cookies to monitor coupon claims from the same browser session. 
+
+4. User Feedback:
+
+○ Provide clear messages indicating successful coupon claims or inform users of the time remaining before they can claim another.
+
+5. Deployment: 
+
+○ Deploy the application to a live web server, ensuring it is accessible via a public URL. 
+
+6. Documentation: 
+
+○ Provide setup instructions and a brief explanation of the implemented abuse prevention strategies.
+
+# Run
+
+# Clone this repository
+$ git clone https://github.com/ShailySarker/Coupon-App-Frontend  
+
+# Go into the repository
+$ cd Coupon-App-Frontend
+
+# Install dependencies
+$ npm install
+
+# Run the app
+$ npm run dev
