@@ -7,7 +7,7 @@ const LandingPage = () => {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            navigate("/home");
+            navigate("/all-coupons");
         }, 3000);
         return () => clearTimeout(timer);
     }, [navigate]);
