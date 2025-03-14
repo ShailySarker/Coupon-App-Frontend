@@ -4,7 +4,7 @@
 https://coupon-app-frontend.vercel.app
 
 # Technologies:
-JavaScript, Tailwind CSS, ReactJS, React Router, React-Redux, Redux Toolkit, Node.js, Express.js, MongoDB, Mongoose.
+JavaScript, Tailwind CSS, ReactJS, React Router, Redux, Node.js, Express.js, MongoDB, Mongoose.
 
 # Title: Round-Robin Coupon Distribution with Abuse Prevention 
 
