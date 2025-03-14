@@ -6,7 +6,8 @@ https://coupon-app-frontend.vercel.app
 # Technologies:
 JavaScript, Tailwind CSS, ReactJS, React Router, Redux, Node.js, Express.js, MongoDB, Mongoose.
 
-# Title: Round-Robin Coupon Distribution with Abuse Prevention 
+# Title: 
+Round-Robin Coupon Distribution with Abuse Prevention 
 
 # Objective: 
 Develop a live web application that distributes coupons to guest users in a 
@@ -19,9 +20,11 @@ round-robin manner, incorporating mechanisms to prevent users from exploiting pa
 
 ○ Assign coupons sequentially to users to ensure even distribution. 
 
+
 2. Guest Access: 
 
 ○ Allow users to access the system without requiring login or account creation. 
+
 
 3. Abuse Prevention: 
 
@@ -30,13 +33,16 @@ hour).
 
 ○ Cookie Tracking: Use cookies to monitor coupon claims from the same browser session. 
 
+
 4. User Feedback:
 
 ○ Provide clear messages indicating successful coupon claims or inform users of the time remaining before they can claim another.
 
+
 5. Deployment: 
 
 ○ Deploy the application to a live web server, ensuring it is accessible via a public URL. 
+
 
 6. Documentation: 
 
