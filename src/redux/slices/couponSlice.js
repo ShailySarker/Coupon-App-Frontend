@@ -26,5 +26,4 @@ const couponSlice = createSlice({
     },
 });
 
-// export const { searchPosts } = couponSlice.actions;
 export default couponSlice.reducer;
